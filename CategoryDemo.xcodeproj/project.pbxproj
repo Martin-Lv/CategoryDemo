@@ -13,6 +13,16 @@
 		C8158DA21E0D8CF800648BC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8158DA01E0D8CF800648BC5 /* Main.storyboard */; };
 		C8158DA41E0D8CF800648BC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8158DA31E0D8CF800648BC5 /* Assets.xcassets */; };
 		C8158DA71E0D8CF800648BC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8158DA51E0D8CF800648BC5 /* LaunchScreen.storyboard */; };
+		C8158DB01E0D8F2A00648BC5 /* NSObject+tryDownCast.m in Sources */ = {isa = PBXBuildFile; fileRef = C8158DAF1E0D8F2A00648BC5 /* NSObject+tryDownCast.m */; };
+		C8158DB31E0D8FED00648BC5 /* NSObject+tableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C8158DB21E0D8FED00648BC5 /* NSObject+tableView.m */; };
+		C8158DB61E0D905300648BC5 /* TextModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C8158DB51E0D905300648BC5 /* TextModel.m */; };
+		C8158DB91E0D92CF00648BC5 /* ImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C8158DB81E0D92CF00648BC5 /* ImageModel.m */; };
+		C8158DBC1E0D92FF00648BC5 /* TextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C8158DBB1E0D92FF00648BC5 /* TextCell.m */; };
+		C8158DBF1E0D930C00648BC5 /* ImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C8158DBE1E0D930C00648BC5 /* ImageCell.m */; };
+		C8158DC21E0D967900648BC5 /* dylan1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C8158DC11E0D967900648BC5 /* dylan1.jpg */; };
+		C8158DC41E0D968000648BC5 /* dylan2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C8158DC31E0D968000648BC5 /* dylan2.jpg */; };
+		C8158DC71E0D985B00648BC5 /* TextModel+tableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C8158DC61E0D985B00648BC5 /* TextModel+tableView.m */; };
+		C8158DCD1E0D99CC00648BC5 /* ImageModel+tableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C8158DCC1E0D99CC00648BC5 /* ImageModel+tableView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +36,24 @@
 		C8158DA31E0D8CF800648BC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C8158DA61E0D8CF800648BC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C8158DA81E0D8CF800648BC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8158DAE1E0D8F2A00648BC5 /* NSObject+tryDownCast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+tryDownCast.h"; sourceTree = "<group>"; };
+		C8158DAF1E0D8F2A00648BC5 /* NSObject+tryDownCast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+tryDownCast.m"; sourceTree = "<group>"; };
+		C8158DB11E0D8FED00648BC5 /* NSObject+tableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+tableView.h"; sourceTree = "<group>"; };
+		C8158DB21E0D8FED00648BC5 /* NSObject+tableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+tableView.m"; sourceTree = "<group>"; };
+		C8158DB41E0D905300648BC5 /* TextModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextModel.h; sourceTree = "<group>"; };
+		C8158DB51E0D905300648BC5 /* TextModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextModel.m; sourceTree = "<group>"; };
+		C8158DB71E0D92CF00648BC5 /* ImageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageModel.h; sourceTree = "<group>"; };
+		C8158DB81E0D92CF00648BC5 /* ImageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageModel.m; sourceTree = "<group>"; };
+		C8158DBA1E0D92FF00648BC5 /* TextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextCell.h; sourceTree = "<group>"; };
+		C8158DBB1E0D92FF00648BC5 /* TextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextCell.m; sourceTree = "<group>"; };
+		C8158DBD1E0D930C00648BC5 /* ImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCell.h; sourceTree = "<group>"; };
+		C8158DBE1E0D930C00648BC5 /* ImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCell.m; sourceTree = "<group>"; };
+		C8158DC11E0D967900648BC5 /* dylan1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dylan1.jpg; sourceTree = "<group>"; };
+		C8158DC31E0D968000648BC5 /* dylan2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dylan2.jpg; sourceTree = "<group>"; };
+		C8158DC51E0D985B00648BC5 /* TextModel+tableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TextModel+tableView.h"; sourceTree = "<group>"; };
+		C8158DC61E0D985B00648BC5 /* TextModel+tableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TextModel+tableView.m"; sourceTree = "<group>"; };
+		C8158DCB1E0D99CC00648BC5 /* ImageModel+tableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ImageModel+tableView.h"; sourceTree = "<group>"; };
+		C8158DCC1E0D99CC00648BC5 /* ImageModel+tableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ImageModel+tableView.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +86,16 @@
 		C8158D961E0D8CF800648BC5 /* CategoryDemo */ = {
 			isa = PBXGroup;
 			children = (
+				C8158DC91E0D987100648BC5 /* model */,
+				C8158DC81E0D986B00648BC5 /* view */,
+				C8158DCA1E0D987800648BC5 /* controller */,
+				C8158DC01E0D966A00648BC5 /* images */,
 				C8158D9A1E0D8CF800648BC5 /* AppDelegate.h */,
 				C8158D9B1E0D8CF800648BC5 /* AppDelegate.m */,
-				C8158D9D1E0D8CF800648BC5 /* ViewController.h */,
-				C8158D9E1E0D8CF800648BC5 /* ViewController.m */,
+				C8158DAE1E0D8F2A00648BC5 /* NSObject+tryDownCast.h */,
+				C8158DAF1E0D8F2A00648BC5 /* NSObject+tryDownCast.m */,
+				C8158DB11E0D8FED00648BC5 /* NSObject+tableView.h */,
+				C8158DB21E0D8FED00648BC5 /* NSObject+tableView.m */,
 				C8158DA01E0D8CF800648BC5 /* Main.storyboard */,
 				C8158DA31E0D8CF800648BC5 /* Assets.xcassets */,
 				C8158DA51E0D8CF800648BC5 /* LaunchScreen.storyboard */,
@@ -77,6 +111,50 @@
 				C8158D981E0D8CF800648BC5 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C8158DC01E0D966A00648BC5 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				C8158DC31E0D968000648BC5 /* dylan2.jpg */,
+				C8158DC11E0D967900648BC5 /* dylan1.jpg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		C8158DC81E0D986B00648BC5 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				C8158DBA1E0D92FF00648BC5 /* TextCell.h */,
+				C8158DBB1E0D92FF00648BC5 /* TextCell.m */,
+				C8158DBD1E0D930C00648BC5 /* ImageCell.h */,
+				C8158DBE1E0D930C00648BC5 /* ImageCell.m */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		C8158DC91E0D987100648BC5 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				C8158DB41E0D905300648BC5 /* TextModel.h */,
+				C8158DB51E0D905300648BC5 /* TextModel.m */,
+				C8158DB71E0D92CF00648BC5 /* ImageModel.h */,
+				C8158DB81E0D92CF00648BC5 /* ImageModel.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		C8158DCA1E0D987800648BC5 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				C8158D9D1E0D8CF800648BC5 /* ViewController.h */,
+				C8158D9E1E0D8CF800648BC5 /* ViewController.m */,
+				C8158DC51E0D985B00648BC5 /* TextModel+tableView.h */,
+				C8158DC61E0D985B00648BC5 /* TextModel+tableView.m */,
+				C8158DCB1E0D99CC00648BC5 /* ImageModel+tableView.h */,
+				C8158DCC1E0D99CC00648BC5 /* ImageModel+tableView.m */,
+			);
+			name = controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +217,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8158DA71E0D8CF800648BC5 /* LaunchScreen.storyboard in Resources */,
+				C8158DC41E0D968000648BC5 /* dylan2.jpg in Resources */,
 				C8158DA41E0D8CF800648BC5 /* Assets.xcassets in Resources */,
+				C8158DC21E0D967900648BC5 /* dylan1.jpg in Resources */,
 				C8158DA21E0D8CF800648BC5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -153,7 +233,15 @@
 			files = (
 				C8158D9F1E0D8CF800648BC5 /* ViewController.m in Sources */,
 				C8158D9C1E0D8CF800648BC5 /* AppDelegate.m in Sources */,
+				C8158DC71E0D985B00648BC5 /* TextModel+tableView.m in Sources */,
+				C8158DBC1E0D92FF00648BC5 /* TextCell.m in Sources */,
+				C8158DB91E0D92CF00648BC5 /* ImageModel.m in Sources */,
+				C8158DB01E0D8F2A00648BC5 /* NSObject+tryDownCast.m in Sources */,
 				C8158D991E0D8CF800648BC5 /* main.m in Sources */,
+				C8158DB61E0D905300648BC5 /* TextModel.m in Sources */,
+				C8158DBF1E0D930C00648BC5 /* ImageCell.m in Sources */,
+				C8158DB31E0D8FED00648BC5 /* NSObject+tableView.m in Sources */,
+				C8158DCD1E0D99CC00648BC5 /* ImageModel+tableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
