@@ -7,11 +7,10 @@
 //
 
 #import "TextModel+tableView.h"
-#import "NSObject+tableView.h"
 #import "NSObject+tryDownCast.h"
 #import "TextCell.h"
 
-@implementation TextModel (tableView)
+@implementation TextModel (tableView) 
 
 - (NSString *)cellIdentifier
 {

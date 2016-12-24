@@ -1,5 +1,5 @@
 //
-//  NSObject+bindTableViewCell.h
+//  ConfigTableView.h
 //  CategoryDemo
 //
 //  Created by 吕孟霖 on 2016/12/24.
@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-@interface NSObject (tableView)
+@protocol ConfigTableView <NSObject>
 
 - (NSString *)cellIdentifier;
 

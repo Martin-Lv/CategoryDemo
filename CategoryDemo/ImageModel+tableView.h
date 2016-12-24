@@ -7,7 +7,8 @@
 //
 
 #import "ImageModel.h"
+#import "ConfigTableView.h"
 
-@interface ImageModel (tableView)
+@interface ImageModel (tableView) <ConfigTableView>
 
 @end

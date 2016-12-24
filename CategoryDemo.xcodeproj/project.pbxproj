@@ -14,7 +14,6 @@
 		C8158DA41E0D8CF800648BC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8158DA31E0D8CF800648BC5 /* Assets.xcassets */; };
 		C8158DA71E0D8CF800648BC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8158DA51E0D8CF800648BC5 /* LaunchScreen.storyboard */; };
 		C8158DB01E0D8F2A00648BC5 /* NSObject+tryDownCast.m in Sources */ = {isa = PBXBuildFile; fileRef = C8158DAF1E0D8F2A00648BC5 /* NSObject+tryDownCast.m */; };
-		C8158DB31E0D8FED00648BC5 /* NSObject+tableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C8158DB21E0D8FED00648BC5 /* NSObject+tableView.m */; };
 		C8158DB61E0D905300648BC5 /* TextModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C8158DB51E0D905300648BC5 /* TextModel.m */; };
 		C8158DB91E0D92CF00648BC5 /* ImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C8158DB81E0D92CF00648BC5 /* ImageModel.m */; };
 		C8158DBC1E0D92FF00648BC5 /* TextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C8158DBB1E0D92FF00648BC5 /* TextCell.m */; };
@@ -38,8 +37,6 @@
 		C8158DA81E0D8CF800648BC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C8158DAE1E0D8F2A00648BC5 /* NSObject+tryDownCast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+tryDownCast.h"; sourceTree = "<group>"; };
 		C8158DAF1E0D8F2A00648BC5 /* NSObject+tryDownCast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+tryDownCast.m"; sourceTree = "<group>"; };
-		C8158DB11E0D8FED00648BC5 /* NSObject+tableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+tableView.h"; sourceTree = "<group>"; };
-		C8158DB21E0D8FED00648BC5 /* NSObject+tableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+tableView.m"; sourceTree = "<group>"; };
 		C8158DB41E0D905300648BC5 /* TextModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextModel.h; sourceTree = "<group>"; };
 		C8158DB51E0D905300648BC5 /* TextModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextModel.m; sourceTree = "<group>"; };
 		C8158DB71E0D92CF00648BC5 /* ImageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageModel.h; sourceTree = "<group>"; };
@@ -54,6 +51,7 @@
 		C8158DC61E0D985B00648BC5 /* TextModel+tableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TextModel+tableView.m"; sourceTree = "<group>"; };
 		C8158DCB1E0D99CC00648BC5 /* ImageModel+tableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ImageModel+tableView.h"; sourceTree = "<group>"; };
 		C8158DCC1E0D99CC00648BC5 /* ImageModel+tableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ImageModel+tableView.m"; sourceTree = "<group>"; };
+		C8158DCF1E0E02BE00648BC5 /* ConfigTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigTableView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +92,7 @@
 				C8158D9B1E0D8CF800648BC5 /* AppDelegate.m */,
 				C8158DAE1E0D8F2A00648BC5 /* NSObject+tryDownCast.h */,
 				C8158DAF1E0D8F2A00648BC5 /* NSObject+tryDownCast.m */,
-				C8158DB11E0D8FED00648BC5 /* NSObject+tableView.h */,
-				C8158DB21E0D8FED00648BC5 /* NSObject+tableView.m */,
+				C8158DCF1E0E02BE00648BC5 /* ConfigTableView.h */,
 				C8158DA01E0D8CF800648BC5 /* Main.storyboard */,
 				C8158DA31E0D8CF800648BC5 /* Assets.xcassets */,
 				C8158DA51E0D8CF800648BC5 /* LaunchScreen.storyboard */,
@@ -240,7 +237,6 @@
 				C8158D991E0D8CF800648BC5 /* main.m in Sources */,
 				C8158DB61E0D905300648BC5 /* TextModel.m in Sources */,
 				C8158DBF1E0D930C00648BC5 /* ImageCell.m in Sources */,
-				C8158DB31E0D8FED00648BC5 /* NSObject+tableView.m in Sources */,
 				C8158DCD1E0D99CC00648BC5 /* ImageModel+tableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

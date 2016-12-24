@@ -7,11 +7,10 @@
 //
 
 #import "ImageModel+tableView.h"
-#import "NSObject+tableView.h"
 #import "NSObject+tryDownCast.h"
 #import "ImageCell.h"
 
-@implementation ImageModel (tableView)
+@implementation ImageModel (tableView) 
 
 - (NSString *)cellIdentifier
 {

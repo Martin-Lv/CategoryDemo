@@ -7,13 +7,13 @@
 //
 
 #import "ViewController.h"
-#import "TextModel.h"
-#import "ImageModel.h"
-#import "NSObject+tableView.h"
+
+#import "TextModel+tableView.h"
+#import "ImageModel+tableView.h"
 
 @interface ViewController () <UITableViewDataSource, UITableViewDelegate>
 
-@property (strong, nonatomic) NSArray *models;
+@property (strong, nonatomic) NSArray<id<ConfigTableView>> *models;
 
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 
@@ -24,7 +24,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    self.title = @"Dylan";
+    self.navigationItem.title = @"Dylan";
     [self initModels];
 }
 
@@ -54,13 +54,13 @@
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    NSObject *model = self.models[indexPath.row % self.models.count];
+    id<ConfigTableView> model = self.models[indexPath.row % self.models.count];
     return [model heightForCellOfTableView:tableView];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    NSObject *model = self.models[indexPath.row % self.models.count];
+    id<ConfigTableView> model = self.models[indexPath.row % self.models.count];
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:[model cellIdentifier] forIndexPath:indexPath];
     if (cell) {
         [model bindWithTableViewCell:cell];
